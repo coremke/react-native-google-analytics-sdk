@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5394672B1BCFFF02008D5D02 /* RNGoogleAnalytics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5394672A1BCFFF02008D5D02 /* RNGoogleAnalytics.h */; };
+		5394672D1BCFFF02008D5D02 /* RNGoogleAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5394672C1BCFFF02008D5D02 /* RNGoogleAnalytics.m */; };
+		E9630B7CBD3F39CE31794C23 /* libPods-RNGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E838E004D420CEEC71F5102D /* libPods-RNGoogleAnalytics.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		539467251BCFFF02008D5D02 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5394672B1BCFFF02008D5D02 /* RNGoogleAnalytics.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26B22ABC0ABBA8F28C9C75C5 /* Pods-RNGoogleAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNGoogleAnalytics/Pods-RNGoogleAnalytics.release.xcconfig"; sourceTree = "<group>"; };
+		539467271BCFFF02008D5D02 /* libRNGoogleAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNGoogleAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5394672A1BCFFF02008D5D02 /* RNGoogleAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNGoogleAnalytics.h; sourceTree = "<group>"; };
+		5394672C1BCFFF02008D5D02 /* RNGoogleAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGoogleAnalytics.m; sourceTree = "<group>"; };
+		E838E004D420CEEC71F5102D /* libPods-RNGoogleAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGoogleAnalytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF721D54005AE4A0802187EA /* Pods-RNGoogleAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNGoogleAnalytics/Pods-RNGoogleAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539467241BCFFF02008D5D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9630B7CBD3F39CE31794C23 /* libPods-RNGoogleAnalytics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030F6C026727FECF60489C06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF721D54005AE4A0802187EA /* Pods-RNGoogleAnalytics.debug.xcconfig */,
+				26B22ABC0ABBA8F28C9C75C5 /* Pods-RNGoogleAnalytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5394671E1BCFFF02008D5D02 = {
+			isa = PBXGroup;
+			children = (
+				539467291BCFFF02008D5D02 /* RNGoogleAnalytics */,
+				539467281BCFFF02008D5D02 /* Products */,
+				030F6C026727FECF60489C06 /* Pods */,
+				D790CA308A701729186D0C30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		539467281BCFFF02008D5D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				539467271BCFFF02008D5D02 /* libRNGoogleAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		539467291BCFFF02008D5D02 /* RNGoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				5394672A1BCFFF02008D5D02 /* RNGoogleAnalytics.h */,
+				5394672C1BCFFF02008D5D02 /* RNGoogleAnalytics.m */,
+			);
+			path = RNGoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		D790CA308A701729186D0C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E838E004D420CEEC71F5102D /* libPods-RNGoogleAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		539467261BCFFF02008D5D02 /* RNGoogleAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539467301BCFFF02008D5D02 /* Build configuration list for PBXNativeTarget "RNGoogleAnalytics" */;
+			buildPhases = (
+				FC4674617127074E4E6786E4 /* Check Pods Manifest.lock */,
+				539467231BCFFF02008D5D02 /* Sources */,
+				539467241BCFFF02008D5D02 /* Frameworks */,
+				539467251BCFFF02008D5D02 /* CopyFiles */,
+				B11321769ADD8F5107DB469E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNGoogleAnalytics;
+			productName = RNGoogleAnalytics;
+			productReference = 539467271BCFFF02008D5D02 /* libRNGoogleAnalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5394671F1BCFFF02008D5D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "GS Design, Inc.";
+				TargetAttributes = {
+					539467261BCFFF02008D5D02 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 539467221BCFFF02008D5D02 /* Build configuration list for PBXProject "RNGoogleAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5394671E1BCFFF02008D5D02;
+			productRefGroup = 539467281BCFFF02008D5D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				539467261BCFFF02008D5D02 /* RNGoogleAnalytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B11321769ADD8F5107DB469E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNGoogleAnalytics/Pods-RNGoogleAnalytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4674617127074E4E6786E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		539467231BCFFF02008D5D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5394672D1BCFFF02008D5D02 /* RNGoogleAnalytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5394672E1BCFFF02008D5D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5394672F1BCFFF02008D5D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		539467311BCFFF02008D5D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF721D54005AE4A0802187EA /* Pods-RNGoogleAnalytics.debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		539467321BCFFF02008D5D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B22ABC0ABBA8F28C9C75C5 /* Pods-RNGoogleAnalytics.release.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		539467221BCFFF02008D5D02 /* Build configuration list for PBXProject "RNGoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5394672E1BCFFF02008D5D02 /* Debug */,
+				5394672F1BCFFF02008D5D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539467301BCFFF02008D5D02 /* Build configuration list for PBXNativeTarget "RNGoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539467311BCFFF02008D5D02 /* Debug */,
+				539467321BCFFF02008D5D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5394671F1BCFFF02008D5D02 /* Project object */;
+}
