@@ -56,7 +56,19 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-### 5. Use in your JS
+### 5. Make sure the ``AndroidManifest.xml`` file has `INTERNET` and `ACCESS_NETWORK_STATE` permissions:
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.analytics">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>
+```
+
+### 6. Use in your JS
 
 ```js
 var RNGoogleAnalytics = require('react-native').NativeModules.RNGoogleAnalytics;
