@@ -13,11 +13,11 @@
     "cocoapod"
   ],
   "author": "Chris Erickson <chris.erickson@gsdesign.com> (https://github.com/chris-erickson)",
-  "license": "MIT",
+  "license": "BSD",
   "devDependencies": {
-    "react-native": "0.11.4"
+    "react-native": "^0.13.0"
   },
   "peerDependencies": {
-    "react-native": "0.11.4"
+    "react-native": "^0.13.0"
   }
 }
